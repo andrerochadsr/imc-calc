@@ -16,15 +16,15 @@
             </div>
             <div class="entradas" id="inputs">
                 <div class="div-controle">
-                    <label for="txt-help">Sua altura.</label>
-                    <input type="text" class="altura" placeholder="Em centimetros (use ponto, não virgula).">
+                    <label for="input" id="label-altura">Sua altura.</label>
+                    <input type="number" class="altura" placeholder="Em centimetros (use ponto, não virgula).">
                     <i class="fas fa-exclamation-circle" id="icone-erro"></i>
                     <i class="fas fa-check-circle" id="icone-sucesso"></i>
                     <p class="msg-erro"></p>
                 </div>
                 <div class="div-controle">
-                    <label for="txt-help">Seu peso.</label>
-                    <input type="text" class="peso" placeholder="Em quilos (use ponto, não virgula).">
+                    <label for="input" id="label-peso">Seu peso.</label>
+                    <input type="number" class="peso" placeholder="Em quilos (use ponto, não virgula).">
                     <i class="fas fa-exclamation-circle" id="icone-erro"></i>
                     <i class="fas fa-check-circle" id="icone-sucesso"></i>
                     <p class="msg-erro"></p>
@@ -32,14 +32,8 @@
                 
                 <div class="botao-resultado" id="botao-calcular">
                     <button type="submit" class="botao">Calcular</button>
-                    <p class="msg-resultado">
-                        
-                    </p>
-
+                    <p class="msg-resultado"></p>
                 </div>
-                
-                
-                
             </div>
         </div>
 
