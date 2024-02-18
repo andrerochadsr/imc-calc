@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartao {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.topo {
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: antiquewhite;
+}
+.entradas {
+    margin: 10px;
+}
+
+.div-controle {
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.div-controle label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.div-controle input {
+    display: block;
+    width: 85%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.div-controle i {
+    position: absolute;
+    top: 40px;
+    right: 70px;
+}
+
+.div-controle #icone-erro, #icone-sucesso {
+    display: none;
+}
+
+.botao-resultado {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 15px 20px 0px;
+}
+
+p {
+    width: 200px;
+}
+
+/* Mudança de design para ações do usuário.*/
+
+/* SUCESSO */
+
+.div-controle-sucesso {
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.div-controle-sucesso label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.div-controle-sucesso input {
+    display: block;
+    width: 85%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(17, 236, 17);
+    color: rgb(5, 134, 5);
+    font-weight: bolder;
+}
+
+.div-controle-sucesso i {
+    position: absolute;
+    top: 40px;
+    right: 70px;
+    color: rgb(17, 236, 17);
+}
+.div-controle-sucesso #icone-erro {
+    display: none;
+}
+
+.div-controle-sucesso small {
+    color: rgb(17, 236, 17);
+}
+
+/* ERRO */
+
+.div-controle-erro {
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.div-controle-erro label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.div-controle-erro input {
+    display: block;
+    width: 85%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: red;
+    color: rgb(179, 3, 3);
+    font-weight: bolder;
+}
+
+.div-controle-erro i {
+    position: absolute;
+    top: 40px;
+    right: 70px;
+    color: red;
+}
+
+.div-controle-erro #icone-sucesso {
+    display: none;
+}
+
+.msg-erro {
+    height: 20px;
+    width: 100%;
+    color: red;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+<body>
+        <div class="cartao">
+            <div class="topo">
+                <h2>
+                    IMC Calculador
+                </h2>
+            </div>
+            <div class="entradas" id="inputs">
+                <div class="div-controle">
+                    <label for="txt-help">Sua altura.</label>
+                    <input type="text" class="altura" placeholder="Em centimetros (use ponto, não virgula).">
+                    <i class="fas fa-exclamation-circle" id="icone-erro"></i>
+                    <i class="fas fa-check-circle" id="icone-sucesso"></i>
+                    <p class="msg-erro"></p>
+                </div>
+                <div class="div-controle">
+                    <label for="txt-help">Seu peso.</label>
+                    <input type="text" class="peso" placeholder="Em quilos (use ponto, não virgula).">
+                    <i class="fas fa-exclamation-circle" id="icone-erro"></i>
+                    <i class="fas fa-check-circle" id="icone-sucesso"></i>
+                    <p class="msg-erro"></p>
+                </div>
+                
+                <div class="botao-resultado" id="botao-calcular">
+                    <button type="submit" class="botao">Calcular</button>
+                    <p class="msg-resultado">
+                        
+                    </p>
+
+                </div>
+                
+                
+                
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/7c7159b108.js" crossorigin="anonymous"></script>
+        <script src="./assets/scripts/script.js"></script>
+        
+</body>
+</html>
