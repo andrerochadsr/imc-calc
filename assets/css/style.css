@@ -217,21 +217,21 @@ p {
    .div-controle-sucesso {
     padding-bottom: 15px;
 }
-.div-controle-sucesso label {
-    margin-bottom: 5px;
-    font-size:0.85rem;
-}
-.div-controle-sucesso input {
-    width: 95%;
-    font-size:0.85rem;
-}
-.div-controle-sucesso #icone-sucesso {
-    top: 40px;
-    right: 30px;
-}
-.msg-erro {
-    height: 20px;
-    width: 100%;
-    font-size: 0.85rem;
-}
+    .div-controle-sucesso label {
+        margin-bottom: 5px;
+        font-size:0.85rem;
+    }
+    .div-controle-sucesso input {
+        width: 95%;
+        font-size:0.85rem;
+    }
+    .div-controle-sucesso #icone-sucesso {
+        top: 40px;
+        right: 30px;
+    }
+    .msg-erro {
+        height: 20px;
+        width: 100%;
+        font-size: 0.85rem;
+    }
 }
