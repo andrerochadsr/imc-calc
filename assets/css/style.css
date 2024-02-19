@@ -172,11 +172,24 @@ p {
     }
     body {
         align-items: start;
-        margin-top: 35px;
+        margin-top: 45px;
     }
     .cartao {
         height: 400px;
         width: 370px;   
+    }
+    .div-controle {
+        padding-bottom: 15px;
+    }
+    
+    .div-controle label {
+        margin-bottom: 5px;
+        font-size:0.85rem;
+    }
+    
+    .div-controle input {
+        width: 95%;
+        font-size:0.85rem;
     }
     /* ERRO */
     .div-controle-erro {
